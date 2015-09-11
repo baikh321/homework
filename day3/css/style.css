@@ -1,2 +1,191 @@
 
 
+
+.firstsection {
+	background-image: url('../images/header_bg.jpg');
+	background-position: center;
+	background-size: cover;
+	/*min-height: 700px;*/
+	padding: 160px 10%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*h1 {
+margin: 0px;
+padding: 0px;
+font-family: 'Open Sans', sans-serif;
+
+}*/
+
+.logo {
+	position: absolute;
+	top: 20px;
+	left: 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 24px;
+	color: #ffffff;
+}
+
+.tagline {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+	color: #ffffff;
+
+}
+
+.getitbutton {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 14px;
+	color: #000000;
+}
+
+
+.button {
+	display: block;
+	padding: 5px 15px 5px 15px;
+	width: 132px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+.buttona {
+	background: #f9e42e;
+	/*padding: 10px 40px 10px 40px;*/
+	font-size: 14px;
+	color: black;
+	/*Shadow input*/
+	box-shadow: 2px 2px 30px 0px rgba(0,0,0,0.50);
+}
+
+
+.buttonb {
+	background: #033048;
+	/*padding: 10px 40px 10px 40px;*/
+	font-size: 12px;
+	color: white;
+}
+
+h3 {
+	padding-left: 0px;
+	padding-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: #033048;
+
+}
+
+.benefits {
+
+	padding-left: 60px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	padding-right: 60px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	color: #000000;
+	background-color: #f0efef;
+
+}
+
+.lightcopy {
+
+	color: #606161
+}
+
+.quotes {
+	background-image: url('../images/testimonial_bg.jpg');
+	background-position: center;
+	background-size: cover;
+	/*min-height: 700px;*/
+	padding: 60px 10%;
+}
+
+.testimonals {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+	font-style: italic;
+
+}
+
+
+.author {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	color: #ffffff;
+	text-align: center;
+
+}
+
+
+.signup {
+	background-color: #f9e42e;
+	padding: 20px 10%;
+}
+
+
+
+
+footer {
+	background-color: #121212;
+	padding: 10px 10% 60px;
+	/*padding bottom: 30px;*/
+
+}
+
+.footerlogo {
+	
+	text-align: center;
+  	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	color: #f9e42e;
+	font-size: 24px;
+	
+}
+
+.copyright {
+
+	text-align: center;
+  	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #ffffff;
+	font-size: 9px;
+
+}
+
+.social-icons {
+	text-align: center;
+
+}
+
+.social-icons img{
+	height: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+
+
+
+}
