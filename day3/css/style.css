@@ -1,18 +1,23 @@
-
-
+body {
+	margin: 0px;
+	padding: 0px;
+}
 
 .firstsection {
 	background-image: url('../images/header_bg.jpg');
 	background-position: center;
 	background-size: cover;
 	/*min-height: 700px;*/
-	padding: 160px 10%;
+	padding: 50px 10% 200px 10%;
 }
 
-body {
-	margin: 0px;
-	padding: 0px;
+.inner {
+/*	border: 1px solid red;*/
+	max-width: 940px;
+	margin: 0 auto;
+
 }
+
 
 /*h1 {
 margin: 0px;
@@ -26,13 +31,15 @@ li:nth-child(even) {
 }
 
 .logo {
-	position: absolute;
+	/*position: absolute;
 	top: 20px;
-	left: 60px;
+	left: 60px;*/
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 800;
 	font-size: 24px;
 	color: #ffffff;
+	margin: 0px;
+	padding-bottom: 60px;
 }
 
 .tagline {
@@ -129,6 +136,8 @@ h3 {
 	color: #ffffff;
 	text-align: center;
 	font-style: italic;
+	max-width: 400px;
+	margin: 0 auto;
 
 }
 
@@ -190,6 +199,7 @@ footer {
 	padding-bottom: 20px;
 	padding-top: 10px;
 
-
-
 }
+
+
+
