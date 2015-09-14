@@ -20,6 +20,10 @@ padding: 0px;
 font-family: 'Open Sans', sans-serif;
 
 }*/
+li:nth-child(even) {
+
+	font-weight: bold;
+}
 
 .logo {
 	position: absolute;
