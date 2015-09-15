@@ -1,0 +1,145 @@
+.wrapper {
+	max-width: 840px;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+
+}
+
+
+.responsive-block-img {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+
+.responsive-block2-img {
+	display: inline-block;
+	max-height: 100%;
+	width: auto;
+}
+
+.topbar {
+	float: left;
+	background-color: #ccc;
+	width: 200px;
+	height: 110px;
+	/*padding: 10px;*/
+	overflow: hidden;
+	margin: 10px;
+
+	/*border: 1px solid red;*/
+
+}
+
+
+.top-left {
+	float: left;
+	background-color: #ccc;
+	width: 110px;
+	height: 40px;
+	/*padding: 10px;*/
+	overflow: hidden;
+	margin: 50px 5px 10px 142px;
+	/*border: 1px solid red;*/
+
+}
+
+.top-middle {
+	float: left;
+	background-color: #ccc;
+	width: 110px;
+	height: 40px;
+	/*padding: 10px;*/
+	overflow: hidden;
+	margin: 50px 5px 10px 5px;
+
+	/*border: 1px solid red;*/
+
+}
+
+.top-right {
+	float: left;
+	background-color: #ccc;
+	width: 110px;
+	height: 40px;
+	/*padding: 10px;*/
+	overflow: hidden;
+	margin: 50px 5px 10px 5px;
+
+	/*border: 1px solid red;*/
+
+}
+
+header {
+	overflow: hidden;
+}
+
+main {
+	/*height: 270px;*/
+	overflow: hidden;
+
+}
+
+.float-center {
+	/*float: left;*/
+	clear: both;
+	background-color: #ccc;
+	width: 820px;
+	height: 200px;
+	/*padding: 40px;*/
+	margin: 10px;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+
+
+.float-left {
+	float: left;
+	background-color: #ccc;
+	width: 260px;
+	height: 100px;
+	/*padding: 40px;*/
+	margin: 10px;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+
+.float-middle {
+	float: left;
+	background-color: #ccc;
+	width: 260px;
+	height: 100px;
+	/*padding: 40px;*/
+	margin: 10px;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+
+
+.float-right {
+	float: left;
+	background-color: #ccc;
+	width: 260px;
+	height: 100px;
+	margin: 10px;
+	overflow: hidden;	
+	/*border: 1px solid red;*/
+
+}
+
+.bottombar {
+	background-color: #ccc;
+	width: 820px;
+	height: 110px;
+	/*padding: 10px;*/
+	overflow: hidden;
+	margin: 10px;
+
+	/*border: 1px solid red;*/
+
+}
+
+footer {
+	clear: both;
+
+}
