@@ -29,7 +29,7 @@
                         minlength: "Your password must be at least 5 characters long"
                     },
                     email: "Please enter a valid email address",
-                    agree: "Please accept our policy"
+                    
                 },
                 submitHandler: function(form) {
                     form.submit();
