@@ -1,0 +1,45 @@
+
+
+.container.bg {
+  /*height: 100%;*/
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  height: auto;
+ 
+
+  /*border: 5px solid salmon;*/
+}
+
+.i {
+  position: absolute;
+  top: 20%;
+  bottom: 20%;
+  left: 50%;
+
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+  height: auto;
+  min-height: 60%;
+  display: block;
+
+  z-index: 100;
+  /*border: 1px solid red;*/
+
+}
+
+
+.main  {
+  margin: 25px auto;
+  max-width: 980px;
+}
+
+
+.i {
+  pointer-events: none;
+}

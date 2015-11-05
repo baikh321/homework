@@ -8,7 +8,12 @@
 
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+
+	<link rel="stylesheet" href="css/movingimage.css">
+
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+	
   	
 	<title>Vertical Fixed Navigation</title>
 </head>
@@ -74,10 +79,13 @@
 	</nav>
 	<a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
 
+
+
+
 	<section id="section1">
 		<!-- <h1>Vertical Fixed Navigation</h1> -->
 
-			<video autoplay loop poster="sw1.jpg" id="bgvid">
+			<video autoplay loop poster="assets/sw1.jpg" id="bgvid">
                         <source src="assets/sw1.mp4" type="video/mp4">
                         <!-- <source src="movie.ogg" type="video/ogg"> -->
                         Your browser does not support the video tag.
@@ -87,31 +95,159 @@
 		<a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
 	</section><!-- cd-section -->
 
+	
+
+
+
+
 	<section id="section2" class="cd-section">
-		<p>hello ha</p>
+		
+		<img class="i" src="assets/I.svg">
+
+		<div class="container bg" data-ibg-bg="assets/e1.png">
+		</div>	
+		
+    	<div class="main">
+
+    	</div>
+
 	</section><!-- cd-section -->
+
+	<section id="" class="cd-section">
+		Section I content goes here
+
+		 <img class="1a" src="assets/1a.png">
+
+	</section>
+
+
+
 
 	<section id="section3" class="cd-section">
-		<p>whatsup</p>
+		
+		<img class="i" src="assets/II.svg">
+
+		<div class="container bg" data-ibg-bg="assets/e2.png">
+		</div>	
+		
+    	<div class="main">
+
+    	</div>
+
 	</section><!-- cd-section -->
+	<section id="" class="cd-section">
+		Section II content goes here
+	</section>
+
+
+
+
 
 	<section id="section4" class="cd-section">
-		<p>cool</p>
+
+		<img class="i" src="assets/III.svg">
+
+		<div class="container bg" data-ibg-bg="assets/e3.png">
+		</div>	
+		
+    	<div class="main">
+
+    	</div>
 	</section><!-- cd-section -->
+	<section id="" class="cd-section">
+		Section III content goes here
+	</section>
+
+
+
 
 	<section id="section5" class="cd-section">
-		<p>sexy</p>
+		
+		<img class="i" src="assets/IV.svg">
+
+		<div class="container bg" data-ibg-bg="assets/e4.png">
+		</div>	
+		
+    	<div class="main">
+
 	</section><!-- cd-section -->
+	<section id="" class="cd-section">
+		Section IV content goes here
+	</section>
+
+
+
+
 
 	<section id="section6" class="cd-section">
-		<p>epic</p>
+		
+		<img class="i" src="assets/V.svg">
+
+		<div class="container bg" data-ibg-bg="assets/e5.png">
+		</div>	
+		
+    	<div class="main">
+
 	</section><!-- cd-section -->
+	<section id="" class="cd-section">
+		Section IV content goes here
+	</section>
+
+
+
 
 	<section id="section7" class="cd-section">
-		<p>dope</p>
+
+		<img class="i" src="assets/VI.svg">
+
+		<div class="container bg" data-ibg-bg="assets/e6.png">
+		</div>	
+		
+    	<div class="main">
+
 	</section><!-- cd-section -->
+	<section id="" class="cd-section">
+		Section IV content goes here
+	</section>
+
+
+
+
 	
 <script src="js/jquery-2.1.1.js"></script>
+<script src="js/jquery.inview.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="js/imageinview.js"></script>
+<script type="text/javascript" src="js/jquery.interactive_bg.js"></script>
+
+
+<script type="text/javascript">
+	$( document ).ready(function() {
+		$(".bg").interactive_bg({
+			strength: 100,
+			scale: 1.07
+		});
+
+		// $('video').each(function(){
+		//     if ($(this).is(":in-viewport")) {
+		//         $(this)[0].play();
+		//     } else {
+		//         $(this)[0].pause();
+		//     }
+		// });
+
+
+		// Measure top of section 2 to top of document, then subtract how far it is away from the window.
+		$(window).scroll(function() {
+			var viewableOffset = $("#section2").offset().top - $(window).scrollTop();
+			console.log(viewableOffset);
+			if(viewableOffset < 1) {
+				$("#section1 video")[0].pause();
+			} else {
+				$("#section1 video")[0].play();
+			}
+		});
+	});
+</script>
 </body>
 </html>

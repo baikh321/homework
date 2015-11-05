@@ -19,12 +19,14 @@ html * {
     top: 25px;
     left: 20px;
     height: 20px;
+    z-index: 1;
 }
 
 .logo {
     position: absolute;
     top: 10px;
     left: 60px;
+    z-index: 1;
     
 }
 
@@ -35,6 +37,7 @@ html * {
     right: 20px;
     height: 20px;
     padding-left: 10px;
+    z-index: 1;
 }
 
 video#bgvid { 
@@ -45,7 +48,7 @@ video#bgvid {
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -100;
+    z-index: 0;
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background: url(assets/sw1.jpg) no-repeat;
@@ -110,22 +113,25 @@ Main components
   min-height: 100%;
   position: relative;
   padding: 2em 0;
+
+  /*background-color: #efefef !important;
+  border: 2px solid lightgreen;*/
 }
 .cd-section:nth-of-type(odd) {
-  background-color: black;
+  background-color: white;
   /*border: 1px solid red;*/
 }
 
 /*body copy*/
 .cd-section:nth-of-type(odd) p {
-  color: white;
+  color: black;
   /*border: 1px solid red;*/
 }
 .cd-section:nth-of-type(even) {
-  background-color: white;
+  background-color: black;
 }
 .cd-section:nth-of-type(even) p {
-  color: black;
+  color: white;
 }
 .cd-section h1, .cd-section p {
   position: absolute;
