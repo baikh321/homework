@@ -10,12 +10,13 @@
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 
 	<link rel="stylesheet" href="css/movingimage.css">
+	<link rel="stylesheet" href="css/imageinview.css">
 
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 
 	
   	
-	<title>Vertical Fixed Navigation</title>
+	<title>Star Wars Timeline</title>
 </head>
 <body>
 		<div class="menu">
@@ -85,11 +86,16 @@
 	<section id="section1">
 		<!-- <h1>Vertical Fixed Navigation</h1> -->
 
-			<video autoplay loop poster="assets/sw1.jpg" id="bgvid">
-                        <source src="assets/sw1.mp4" type="video/mp4">
-                        <!-- <source src="movie.ogg" type="video/ogg"> -->
-                        Your browser does not support the video tag.
-                        </video>
+			<video 
+				autoplay 
+				loop 
+				poster="assets/sw1.jpg" 
+				id="bgvid" 
+			>
+		        <source src="assets/sw1.mp4" type="video/mp4">
+		        <!-- <source src="movie.ogg" type="video/ogg"> -->
+		        Your browser does not support the video tag.
+            </video>
 
 
 		<a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
@@ -114,9 +120,14 @@
 	</section><!-- cd-section -->
 
 	<section id="" class="cd-section">
-		Section I content goes here
 
-		 <img class="1a" src="assets/1a.png">
+		 <img class="one-d" src="assets/1d.png">
+
+		 <img class="one-b" src="assets/1b.png">
+
+		 <img class="one-a" src="assets/1a.png">
+
+		 <img class="one-c" src="assets/1c.png">
 
 	</section>
 
@@ -136,7 +147,16 @@
 
 	</section><!-- cd-section -->
 	<section id="" class="cd-section">
-		Section II content goes here
+		
+		<img class="two-d" src="assets/2d.png">
+
+		<img class="two-b" src="assets/2b.png">
+
+		<img class="two-a" src="assets/2a.png">
+
+		<img class="two-c" src="assets/2c.png">
+
+
 	</section>
 
 
@@ -155,7 +175,15 @@
     	</div>
 	</section><!-- cd-section -->
 	<section id="" class="cd-section">
-		Section III content goes here
+		
+		<img class="three-d" src="assets/3d.png">
+
+		<img class="three-b" src="assets/3b.png">
+
+		<img class="three-a" src="assets/3a.png">
+
+		<img class="three-c" src="assets/3c.png">
+
 	</section>
 
 
@@ -172,7 +200,15 @@
 
 	</section><!-- cd-section -->
 	<section id="" class="cd-section">
-		Section IV content goes here
+
+		<img class="four-d" src="assets/4d.png">
+
+		<img class="four-b" src="assets/4b.png">
+
+		<img class="four-a" src="assets/4a.png">
+
+		<img class="four-c" src="assets/4c.png">
+
 	</section>
 
 
@@ -190,7 +226,15 @@
 
 	</section><!-- cd-section -->
 	<section id="" class="cd-section">
-		Section IV content goes here
+		
+		<img class="five-d" src="assets/5d.png">
+
+		<img class="five-b" src="assets/5b.png">
+
+		<img class="five-a" src="assets/5a.png">
+
+		<img class="five-c" src="assets/5c.png">
+
 	</section>
 
 
@@ -207,7 +251,15 @@
 
 	</section><!-- cd-section -->
 	<section id="" class="cd-section">
-		Section IV content goes here
+		
+		<img class="six-d" src="assets/6d.png">
+
+		<img class="six-b" src="assets/6b.png">
+
+		<img class="six-a" src="assets/6a.png">
+
+		<img class="six-c" src="assets/6c.png">
+
 	</section>
 
 
@@ -240,7 +292,7 @@
 		// Measure top of section 2 to top of document, then subtract how far it is away from the window.
 		$(window).scroll(function() {
 			var viewableOffset = $("#section2").offset().top - $(window).scrollTop();
-			console.log(viewableOffset);
+			// console.log(viewableOffset);
 			if(viewableOffset < 1) {
 				$("#section1 video")[0].pause();
 			} else {
